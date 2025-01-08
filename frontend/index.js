@@ -12,10 +12,14 @@ import Programmers from './components/Programmers';
 const domNode = document.getElementById('root')
 const root = createRoot(domNode)
 
+
+// let count = useState(0)
+
 root.render(
+
   <>
     <Counter />
-    <Moods />
+    <Moods />/
     <Spinner />
     <Input />
     <Squares />
